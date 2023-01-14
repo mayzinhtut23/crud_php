@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Course List</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<style>
+	body {
+		padding: 50px;
+	}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+		<div class="card">
+			<div class="card-header">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="card-title" >
+							Courses List
+						</div>
+					</div>
+					<div class="col-md-2">
+						<a href="create_course.html" class="btn btn-primary float-right">+ Add New</a>		</div>
+				</div>
+			</div>
+<div class="card-body">						
+	<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Title</th>
+							<th>Description</th>
+							<th>Action</th>
+						</tr>
+					</thead>
+<tbody>								
+<tr>
+							<td>1</td>
+							<td>HTML</td>
+							<td>Hypertext Markup Language</td>									<td>
+								<a href="">Edit</a>|
+								<a href="" >Delete</a>
+							</td>
+	</tr> 
+					</tbody>
+				</table>
+				</div>
+		</div>
+	</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"> </script>		
+</body>
+</html>
